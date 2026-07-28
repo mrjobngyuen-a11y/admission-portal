@@ -1,81 +1,51 @@
-body{
+.portal{
 
-margin:0;
+max-width:900px;
+
+margin:50px auto;
+
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+margin-top:25px;
+
+border-radius:12px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+.decision{
 
 height:100vh;
 
 display:flex;
 
+flex-direction:column;
+
 justify-content:center;
 
 align-items:center;
-
-background:#edf2f7;
-
-font-family:Arial;
-
-}
-
-.login-box{
-
-background:white;
-
-padding:40px;
-
-width:360px;
-
-border-radius:12px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.15);
 
 text-align:center;
 
 }
 
-input{
+.decision h1{
 
-width:100%;
+font-size:60px;
 
-padding:12px;
-
-margin-top:15px;
-
-font-size:16px;
-
-box-sizing:border-box;
+color:#0d7a35;
 
 }
 
-button{
+.decision p{
 
-margin-top:20px;
-
-width:100%;
-
-padding:14px;
-
-background:#003366;
-
-color:white;
-
-border:none;
-
-font-size:17px;
-
-cursor:pointer;
-
-}
-
-button:hover{
-
-background:#001f44;
-
-}
-
-#error{
-
-color:red;
-
-margin-top:15px;
+font-size:24px;
 
 }
