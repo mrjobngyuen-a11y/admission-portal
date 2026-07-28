@@ -10,11 +10,11 @@ password:"123456"
 
 function login(){
 
-const email=document.getElementById("email").value;
+const email=document.getElementById("email").value.trim();
 
-const password=document.getElementById("password").value;
+const password=document.getElementById("password").value.trim();
 
-if(users[email]&&users[email].password===password){
+if(users[email] && users[email].password===password){
 
 window.location.href="portal.html";
 
@@ -22,7 +22,7 @@ window.location.href="portal.html";
 
 else{
 
-document.getElementById("error").innerHTML="Invalid email or password.";
+document.getElementById("error").textContent="Invalid email or password.";
 
 }
 
