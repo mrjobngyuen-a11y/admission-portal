@@ -1,4 +1,4 @@
-const users={
+const users = {
 
 "offer@university.edu":{
 
@@ -6,7 +6,7 @@ password:"123456"
 
 }
 
-}
+};
 
 function login(){
 
@@ -16,7 +16,7 @@ const password=document.getElementById("password").value;
 
 if(users[email]&&users[email].password===password){
 
-alert("Login successful!");
+window.location.href="portal.html";
 
 }
 
