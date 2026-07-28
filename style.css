@@ -1,28 +1,32 @@
-.portal{
+.portal-container{
 
-max-width:900px;
+width:900px;
 
-margin:50px auto;
+margin:60px auto;
 
 }
 
-.card{
+.box{
 
 background:white;
 
 padding:25px;
 
-margin-top:25px;
+margin-bottom:25px;
 
 border-radius:12px;
 
-box-shadow:0 8px 20px rgba(0,0,0,.1);
+box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 }
 
-.decision{
+.box h2{
 
-height:100vh;
+margin-top:0;
+
+}
+
+.decision-page{
 
 display:flex;
 
@@ -32,20 +36,30 @@ justify-content:center;
 
 align-items:center;
 
-text-align:center;
+height:100vh;
 
 }
 
-.decision h1{
+.decision-page h1{
 
 font-size:60px;
 
-color:#0d7a35;
+color:#0b7d38;
+
+margin-bottom:10px;
 
 }
 
-.decision p{
+.decision-page h2{
 
-font-size:24px;
+font-size:34px;
+
+}
+
+.emoji{
+
+font-size:90px;
+
+margin:30px;
 
 }
